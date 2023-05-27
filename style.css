@@ -1,5 +1,5 @@
 header {
-    background-color: #424E61;
+    background-color: #B58FC7;
     color: white;
 }
 
@@ -25,22 +25,36 @@ header {
     margin: 0;
     padding: 0;
 }
+body {
+        font-family: 'Poppins', sans-serif;
+}
 
 .escola-imagem{
     width: 20%;
 }
 
 .escola{
-    background-image: linear-gradient(#424E61,#424E61);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+    background-image: linear-gradient(#B58FC7,#B58FC7);
 }
-.escola-div-conteudo{
-    width: 35%;
+
+.estuante-imagem{
+    width: 120px;
 }
-.escola-titulo{
-    padding: 24px 0;
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estuante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estuante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
